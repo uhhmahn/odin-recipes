@@ -1,0 +1,38 @@
+* {
+    /*border: 2px solid red;*/
+    background-color: darkgrey;
+}
+
+h1 {
+    color:red;
+}
+
+li {
+    color:blueviolet;
+
+}
+
+div > p {
+    color:brown;
+    font: size 24px;
+}
+
+p{
+    color:yellow;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.flex-container div{
+    background: peachpuff;
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+    flex: auto;
+    text-align: center;
+
+}
